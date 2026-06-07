@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: nars-server
+    env: node
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: IS_RENDER
+        value: "true"
+      - key: CORS_ORIGIN
+        value: https://nars.com.np
+      - key: MONGODB_URI
+        sync: false
+      - key: EMAIL_USER
+        sync: false
+      - key: EMAIL_PASS
+        sync: false
