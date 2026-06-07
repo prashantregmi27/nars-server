@@ -1,0 +1,15 @@
+require('./Associate');
+require('./Staff');
+require('./Department');
+require('./Client');
+require('./Project');
+require('./Task');
+require('./Finance');
+require('./Document');
+require('./Notice');
+require('./Event');
+require('./Message');
+require('./Lead');
+require('./Ticket');
+require('./Setting');
+require('./User');
